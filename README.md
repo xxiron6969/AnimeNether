@@ -2,11 +2,11 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,express,nodejs,docker" />
   <br/>
-  <a href="https://anime.netherex.com"><kbd>api-anime-rouge.vercel.app</kbd></a>
+  <a href="https://anime.netherex.com"><kbd>anime.netherex.com</kbd></a>
 </p>
 <br/><br/>
 
-Check it out at <a href="https://anime.netherex.com"><kbd>api-anime-rouge.vercel.app</kbd></a>.
+Check it out at <a href="https://anime.netherex.com"><kbd>anime.netherex.com</kbd></a>.
 
 <break>
 
