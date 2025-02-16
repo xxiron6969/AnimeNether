@@ -2,11 +2,11 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,express,nodejs,docker" />
   <br/>
-  <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>
+  <a href="https://anime.netherex.com"><kbd>api-anime-rouge.vercel.app</kbd></a>
 </p>
 <br/><br/>
 
-Check it out at <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-rouge.vercel.app</kbd></a>.
+Check it out at <a href="https://anime.netherex.com"><kbd>api-anime-rouge.vercel.app</kbd></a>.
 
 <break>
 
@@ -34,11 +34,7 @@ Check it out at <a href="https://api-anime-rouge.vercel.app"><kbd>api-anime-roug
 | `/gogoanime/top-airing?page=${pageNo}`                   | 1 day (3600 * 24)     |
 
 
-### Deploy this project to Vercel
 
-Click the button below to deploy this project to your Vercel account:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/falcon71181/Anime-API)
 
 
 ## ⚡ Web Scraping Status
@@ -64,13 +60,13 @@ kickassanime    | <b>IN FUTURE</b>
 #### Endpoint
 
 ```url
-https://api-anime-rouge.vercel.app/aniwatch/
+https://anime.netherex.com/aniwatch/
 ```
 
 #### Request sample
 
 ```javascript
-const res = await fetch("https://api-anime-rouge.vercel.app/aniwatch/");
+const res = await fetch("https://anime.netherex.com//aniwatch/");
 const data = await res.json();
 console.log(data);
 ```
@@ -197,7 +193,7 @@ console.log(data);
 #### Endpoint
 
 ```url
-https://api-anime-rouge.vercel.app/aniwatch/az-list?page=${page}
+https://anime.netherex.com/aniwatch/az-list?page=${page}
 ```
 
 #### Query Parameters
@@ -210,7 +206,7 @@ https://api-anime-rouge.vercel.app/aniwatch/az-list?page=${page}
 #### Request sample
 
 ```typescript
-const resp = await fetch("https://api-anime-rouge.vercel.app/aniwatch/az-list?page=69");
+const resp = await fetch("https://anime.netherex.com/aniwatch/az-list?page=69");
 const data = await resp.json();
 console.log(data);
 ```
@@ -239,7 +235,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/anime/:id
+https://anime.netherex.com/aniwatch/anime/:id
 ```
 
 #### Query Parameters
@@ -255,7 +251,7 @@ https://api-anime-rouge.vercel.app/aniwatch/anime/:id
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/anime/jujutsu-kaisen-2nd-season-18413"
+  "https://anime.netherex.com/aniwatch/anime/jujutsu-kaisen-2nd-season-18413"
 );
 const data = await res.json();
 console.log(data);
@@ -356,7 +352,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/search?keyword=$(query)&page=$(page)
+https://anime.netherex.com/aniwatch/search?keyword=$(query)&page=$(page)
 ```
 
 #### Query Parameters
@@ -372,7 +368,7 @@ https://api-anime-rouge.vercel.app/aniwatch/search?keyword=$(query)&page=$(page)
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/search?keyword=one+piece&page=1"
+  "https://anime.netherex.com/aniwatch/search?keyword=one+piece&page=1"
 );
 const data = await res.json();
 console.log(data);
@@ -423,7 +419,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/:category?page=$(page)
+https://anime.netherex.com/aniwatch/:category?page=$(page)
 ```
 
 #### Query Parameters
@@ -450,7 +446,7 @@ https://api-anime-rouge.vercel.app/aniwatch/:category?page=$(page)
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/ona?page=1"
+  "https://anime.netherex.com/aniwatch/ona?page=1"
 );
 const data = await res.json();
 console.log(data);
@@ -531,7 +527,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/episodes/:id
+https://anime.netherex.com/aniwatch/episodes/:id
 ```
 
 #### Query Parameters
@@ -551,7 +547,7 @@ https://api-anime-rouge.vercel.app/aniwatch/episodes/:id
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/episodes/one-piece-100"
+  "https://anime.netherex.com/aniwatch/episodes/one-piece-100"
 );
 const data = await res.json();
 console.log(data);
@@ -579,7 +575,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/aniwatch/servers?id=${id}
+https://anime.netherex.com/aniwatch/servers?id=${id}
 ```
 
 #### Query Parameters
@@ -609,7 +605,7 @@ one-piece-100?ep=84802
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/servers?id=one-piece-100?ep=84802"
+  "https://anime.netherex.com/aniwatch/servers?id=one-piece-100?ep=84802"
 );
 const data = await res.json();
 console.log(data);
@@ -644,7 +640,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/anime/episode-srcs?id={episodeId}&server={server}&category={category}
+https://anime.netherex.com/anime/episode-srcs?id={episodeId}&server={server}&category={category}
 ```
 
 #### Query Parameters
@@ -659,7 +655,7 @@ https://api-anime-rouge.vercel.app/anime/episode-srcs?id={episodeId}&server={ser
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/aniwatch/episode-srcs?id=solo-leveling-18718?ep=120094&server=vidstreaming&category=sub"
+  "https://anime.netherex.com/aniwatch/episode-srcs?id=solo-leveling-18718?ep=120094&server=vidstreaming&category=sub"
 );
 const data = await res.json();
 console.log(data);
@@ -710,13 +706,13 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/home
+https://anime.netherex.com/gogoanime/home
 ```
 
 #### Request sample
 
 ```javascript
-const res = await fetch("https://api-anime-rouge.vercel.app/gogoanime/home");
+const res = await fetch("https://anime.netherex.com/gogoanime/home");
 const data = await res.json();
 console.log(data);
 ```
@@ -760,7 +756,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/recent-releases?page=${page}
+https://anime.netherex.com/gogoanime/recent-releases?page=${page}
 ```
 <break>
 
@@ -776,7 +772,7 @@ https://api-anime-rouge.vercel.app/gogoanime/recent-releases?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/recent-releases"
+  "https://anime.netherex.com/gogoanime/recent-releases"
 );
 const data = await res.json();
 console.log(data);
@@ -806,7 +802,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/new-seasons?page=${page}
+https://anime.netherex.com/gogoanime/new-seasons?page=${page}
 ```
 
 <break>
@@ -823,7 +819,7 @@ https://api-anime-rouge.vercel.app/gogoanime/new-seasons?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/new-seasons"
+  "https://anime.netherex.com/gogoanime/new-seasons"
 );
 const data = await res.json();
 console.log(data);
@@ -851,7 +847,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/popular?page=${page}
+https://anime.netherex.com/gogoanime/popular?page=${page}
 ```
 
 <break>
@@ -868,7 +864,7 @@ https://api-anime-rouge.vercel.app/gogoanime/popular?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/popular"
+  "https://anime.netherex.com/gogoanime/popular"
 );
 const data = await res.json();
 console.log(data);
@@ -898,7 +894,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/anime-movies?page=${page}
+https://anime.netherex.com/gogoanime/anime-movies?page=${page}
 ```
 
 <break>
@@ -915,7 +911,7 @@ https://api-anime-rouge.vercel.app/gogoanime/anime-movies?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/anime-movies"
+  "https://anime.netherex.com/gogoanime/anime-movies"
 );
 const data = await res.json();
 console.log(data);
@@ -943,7 +939,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/top-airing?page=${page}
+https://anime.netherex.com/gogoanime/top-airing?page=${page}
 ```
 
 <break>
@@ -960,7 +956,7 @@ https://api-anime-rouge.vercel.app/gogoanime/top-airing?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/top-airing"
+  "https://anime.netherex.com/gogoanime/top-airing"
 );
 const data = await res.json();
 console.log(data);
@@ -987,7 +983,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/completed?page=${page}
+https://anime.netherex.com/gogoanime/completed?page=${page}
 ```
 
 <break>
@@ -1004,7 +1000,7 @@ https://api-anime-rouge.vercel.app/gogoanime/completed?page=${page}
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/completed"
+  "https://anime.netherex.com/gogoanime/completed"
 );
 const data = await res.json();
 console.log(data);
@@ -1030,7 +1026,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/search?keyword=$(query)&page=$(page)
+https://anime.netherex.com/gogoanime/search?keyword=$(query)&page=$(page)
 ```
 
 #### Query Parameters
@@ -1046,7 +1042,7 @@ https://api-anime-rouge.vercel.app/gogoanime/search?keyword=$(query)&page=$(page
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/search?keyword=one+piece&page=1"
+  "https://anime.netherex.com/gogoanime/search?keyword=one+piece&page=1"
 );
 const data = await res.json();
 console.log(data);
@@ -1091,7 +1087,7 @@ console.log(data);
 #### Endpoint
 
 ```sh
-https://api-anime-rouge.vercel.app/gogoanime/anime/:id
+https://anime.netherex.com/gogoanime/anime/:id
 ```
 
 #### Query Parameters
@@ -1107,7 +1103,7 @@ https://api-anime-rouge.vercel.app/gogoanime/anime/:id
 
 ```javascript
 const res = await fetch(
-  "https://api-anime-rouge.vercel.app/gogoanime/anime/one-piece"
+  "https://anime.netherex.com/gogoanime/anime/one-piece"
 );
 const data = await res.json();
 console.log(data);
@@ -1134,17 +1130,7 @@ console.log(data);
 
 <break>
 #############################################################################
-
-## <span>🖱️ For Front End</span>
-
-> [!TIP]
-> Kindly use this repo to make Front End
-
-  - [Eltik / Anify](https://github.com/Eltik/Anify)
-
+                             NetherEx Api
 #############################################################################
 
 ## <span>🤝 Thanks ❤️</span>
-
-- [consumet.ts](https://github.com/consumet/consumet.ts)
-- [ghoshRitesh12](https://github.com/ghoshRitesh12)
